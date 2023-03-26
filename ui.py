@@ -254,7 +254,7 @@ def on_button_click_history():
 
 def on_button_click_API():
     top2 = tk.Toplevel()
-    top2.title("请输入API")
+    top2.title("请输入API-KEY")
     width = 500 # 窗口宽度
     height = 200 # 窗口高度
     screen_width = top2.winfo_screenwidth() # 屏幕宽度
@@ -330,6 +330,6 @@ style = ttk.Style()
 # 定义一个 Bold.TButton 样式
 style.configure("Bold.TButton", font=("Helvetica", 15, "bold"))
 f=font.Font(size=10)
-button2=tk.Button(root,text='点击输入API',font=f,command=on_button_click_API).place(relx=0.8,rely=0.02,relheight=0.05)
+button2=tk.Button(root,text='点击输入API-KEY',font=f,command=on_button_click_API).place(relx=0.8,rely=0.02,relheight=0.05)
 
 root.mainloop()
